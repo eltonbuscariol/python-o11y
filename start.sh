@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 # Language guides: https://grafana.com/docs/grafana-cloud/monitor-applications/application-observability/setup/quickstart/
-export OTEL_EXPORTER_OTLP_PROTOCOL="grpc"
+export OTEL_EXPORTER_OTLP_PROTOCOL="http/protobuf"
 export OTEL_EXPORTER_OTLP_ENDPOINT="https://otlp-gateway-prod-sa-east-1.grafana.net/otlp"
 # OTEL_EXPORTER_OTLP_INSECURE=true
 export OTEL_RESOURCE_ATTRIBUTES="deployment.environment=development,service.namespace=poc,service.version=1.1,service.instance.id=python-api"
