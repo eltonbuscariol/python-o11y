@@ -1,0 +1,1 @@
+[![Quality Gate Status](https://sonarqubepoc.grupopetropolis.com.br:9000/api/project_badges/measure?project=api-portal-backend&metric=alert_status&token=sqb_07ddaa46b3cd7c0dcccda49740a37f751e82bca2)](https://sonarqubepoc.grupopetropolis.com.br:9000/dashboard?id=api-portal-backend)
